@@ -1,10 +1,14 @@
 package com.haiyen.mystore;
 
+<<<<<<< HEAD
 import androidx.annotation.NonNull;
+=======
+>>>>>>> 0b7457a1a26e7c0960b6ddc2c87ffb736c077cef
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+<<<<<<< HEAD
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
@@ -19,6 +23,12 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.haiyen.mystore.activities.HomeActivity;
 import com.haiyen.mystore.activities.RegistrationActivity;
+=======
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+>>>>>>> 0b7457a1a26e7c0960b6ddc2c87ffb736c077cef
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -26,16 +36,22 @@ public class LoginActivity extends AppCompatActivity {
     EditText email, password;
     TextView signUp;
 
+<<<<<<< HEAD
     FirebaseAuth auth;
     ProgressBar progressBar;
 
+=======
+>>>>>>> 0b7457a1a26e7c0960b6ddc2c87ffb736c077cef
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+<<<<<<< HEAD
         auth = FirebaseAuth.getInstance();
         progressBar = findViewById(R.id.progressbar);
         progressBar.setVisibility(View.GONE);
+=======
+>>>>>>> 0b7457a1a26e7c0960b6ddc2c87ffb736c077cef
 
         signIn=findViewById(R.id.login_btn);
         email=findViewById(R.id.email_login);
@@ -52,12 +68,17 @@ public class LoginActivity extends AppCompatActivity {
         signIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+<<<<<<< HEAD
                 loginUser();
                 progressBar.setVisibility(View.VISIBLE);
+=======
+
+>>>>>>> 0b7457a1a26e7c0960b6ddc2c87ffb736c077cef
             }
         });
 
     }
+<<<<<<< HEAD
     private void loginUser(){
         String userEmail = email.getText().toString();
         String userPassword = password.getText().toString();
@@ -93,4 +114,6 @@ public class LoginActivity extends AppCompatActivity {
                     }
                 });
     }
+=======
+>>>>>>> 0b7457a1a26e7c0960b6ddc2c87ffb736c077cef
 }

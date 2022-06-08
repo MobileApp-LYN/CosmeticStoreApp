@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< HEAD
         <entry key="..\:/AndroidStudioProjects/MyStore1.1/app/src/main/res/layout/fragment_my_carts.xml" value="0.21927083333333333" />
         <entry key="..\:/AndroidStudioProjects/MyStore2/app/src/main/res/drawable/btn_bg_detailed.xml" value="0.1925" />
         <entry key="..\:/AndroidStudioProjects/MyStore2/app/src/main/res/layout/activity_detailed.xml" value="0.2" />
@@ -39,6 +40,15 @@
         <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore3/MyStore1/app/src/main/res/layout/home_cat_items.xml" value="0.16757246376811594" />
         <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore3/MyStore1/app/src/main/res/layout/popular_item.xml" value="0.264" />
         <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore3/MyStore1/app/src/main/res/layout/recommended_item.xml" value="0.22864583333333333" />
+=======
+        <entry key="..\:/AndroidStudioProjects/MyStore/app/src/main/res/drawable/Copy of account.xml" value="0.2555" />
+        <entry key="..\:/AndroidStudioProjects/MyStore/app/src/main/res/drawable/account.xml" value="0.1955" />
+        <entry key="..\:/AndroidStudioProjects/MyStore/app/src/main/res/drawable/edittext_ground.xml" value="0.252" />
+        <entry key="..\:/AndroidStudioProjects/MyStore/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/MyStore/app/src/main/res/layout/activity_registration.xml" value="0.24635416666666668" />
+        <entry key="..\:/AndroidStudioProjects/MyStore/app/src/main/res/layout/content_main.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MyStore/app/src/main/res/menu/main.xml" value="0.21927083333333333" />
+>>>>>>> 0b7457a1a26e7c0960b6ddc2c87ffb736c077cef
       </map>
     </option>
   </component>

@@ -12,6 +12,7 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
+<<<<<<< HEAD
         android:id="@+id/nav_profile"
         android:name="com.haiyen.mystore.ui.profile.ProfileFragment"
         android:label="@string/profile"
@@ -42,4 +43,16 @@
         android:name="com.haiyen.mystore.MyCartsFragment"
         android:label="@string/my_carts"
         tools:layout="@layout/fragment_my_carts" />
+=======
+        android:id="@+id/nav_gallery"
+        android:name="com.haiyen.mystore.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.haiyen.mystore.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+>>>>>>> 0b7457a1a26e7c0960b6ddc2c87ffb736c077cef
 </navigation>

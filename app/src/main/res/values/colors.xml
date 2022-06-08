@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
 <!--    <color name="purple_200">#74FF76</color>-->
 <!--    <color name="purple_500">#74FF76</color>-->
 <!--    <color name="purple_700">#35A605</color>-->
@@ -20,6 +21,13 @@
     <color name="teal_700">#2222AA</color>
     <color name="bg">#E6E6FA</color>
 
+=======
+    <color name="purple_200">#74FF76</color>
+    <color name="purple_500">#74FF76</color>
+    <color name="purple_700">#35A605</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+>>>>>>> 0b7457a1a26e7c0960b6ddc2c87ffb736c077cef
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>

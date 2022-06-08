@@ -10,16 +10,26 @@
     <ImageView
         android:id="@+id/reg_img"
         android:layout_width="match_parent"
+<<<<<<< HEAD
         android:layout_height="275dp"
         android:src="@mipmap/loginbg3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+=======
+        android:layout_height="200dp"
+        android:src="@mipmap/loginbg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+>>>>>>> 0b7457a1a26e7c0960b6ddc2c87ffb736c077cef
 
     <EditText
         android:id="@+id/email_login"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginTop="20dp"
         android:background="@drawable/edittext_background"
         android:drawableLeft="@drawable/account"
@@ -32,11 +42,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/reg_img"
         app:layout_constraintWidth_percent=".8" />
+=======
+        android:background="@drawable/edittext_background"
+        android:drawableLeft="@drawable/account"
+        android:drawablePadding="10dp"
+        android:elevation="3dp"
+        android:padding="13dp"
+        android:text="Email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/reg_img"
+        app:layout_constraintWidth_percent=".8"></EditText>
+
+>>>>>>> 0b7457a1a26e7c0960b6ddc2c87ffb736c077cef
 
     <EditText
         android:id="@+id/password_login"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginTop="14dp"
         android:background="@drawable/edittext_background"
         android:drawableLeft="@drawable/keylog"
@@ -50,43 +74,86 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email_login"
         app:layout_constraintWidth_percent=".8" />
+=======
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_background"
+        android:drawableLeft="@drawable/keylog"
+        android:drawablePadding="13dp"
+        android:elevation="3dp"
+        android:padding="13dp"
+        android:text="Passord"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/email_login"
+        app:layout_constraintWidth_percent=".8"></EditText>
+
+>>>>>>> 0b7457a1a26e7c0960b6ddc2c87ffb736c077cef
 
     <Button
         android:id="@+id/login_btn"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+<<<<<<< HEAD
+=======
+        android:layout_marginBottom="268dp"
+>>>>>>> 0b7457a1a26e7c0960b6ddc2c87ffb736c077cef
         android:padding="14dp"
         android:text="Sign In"
         android:textAllCaps="false"
         android:textStyle="bold"
+<<<<<<< HEAD
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password_login" />
+=======
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_login"
+        app:layout_constraintVertical_bias="0.0"></Button>
+>>>>>>> 0b7457a1a26e7c0960b6ddc2c87ffb736c077cef
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:text="Don't Have An Account?  "
+=======
+        android:text="Don't Have An Account?"
+>>>>>>> 0b7457a1a26e7c0960b6ddc2c87ffb736c077cef
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+<<<<<<< HEAD
         app:layout_constraintTop_toBottomOf="@+id/login_btn"
         app:layout_constraintVertical_bias=".2"
         app:layout_constraintHorizontal_bias=".4"/>
+=======
+        app:layout_constraintVertical_bias=".2"
+        app:layout_constraintTop_toBottomOf="@+id/login_btn" >
+
+    </TextView>
+>>>>>>> 0b7457a1a26e7c0960b6ddc2c87ffb736c077cef
 
     <TextView
         android:id="@+id/sign_up"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:text="Sign In"
+=======
+        android:text="Sign Up"
+>>>>>>> 0b7457a1a26e7c0960b6ddc2c87ffb736c077cef
         android:textColor="@color/purple_700"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
+<<<<<<< HEAD
         app:layout_constraintHorizontal_bias="0"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="@+id/textView" />
@@ -104,4 +171,9 @@
         android:scaleX=".5"/>
 
 
+=======
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+>>>>>>> 0b7457a1a26e7c0960b6ddc2c87ffb736c077cef
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,6 +10,7 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+<<<<<<< HEAD
     <string name="profile">Profile</string>
     <string name="category">Category</string>
     <!-- TODO: Remove or change this placeholder text -->
@@ -20,4 +21,6 @@
     <string name="Offers">Offers</string>
     <string name="my_carts">my_carts</string>
     <string name="description">A highly moisturizing, gently exfoliating blend with virgin coconut oil and delicately floral Moroccan rose, this luxurious body scrub leaves skin softer, smoother, and more nourished. It’s also vegan, cruelty-free, and formulated without gluten or silicone.</string>
+=======
+>>>>>>> 0b7457a1a26e7c0960b6ddc2c87ffb736c077cef
 </resources>
