@@ -1,13 +1,17 @@
 package com.haiyen.mystore;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import androidx.annotation.NonNull;
 =======
 >>>>>>> linh
+=======
+>>>>>>> origin/ngoc
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+<<<<<<< HEAD
 <<<<<<< HEAD
 import android.text.TextUtils;
 import android.view.View;
@@ -22,11 +26,16 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 =======
+=======
+>>>>>>> origin/ngoc
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+<<<<<<< HEAD
 >>>>>>> linh
+=======
+>>>>>>> origin/ngoc
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -35,21 +44,27 @@ public class LoginActivity extends AppCompatActivity {
     TextView signUp;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     FirebaseAuth auth;
     ProgressBar progressBar;
 
 =======
 >>>>>>> linh
+=======
+>>>>>>> origin/ngoc
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+<<<<<<< HEAD
 <<<<<<< HEAD
         auth = FirebaseAuth.getInstance();
         progressBar = findViewById(R.id.progressbar);
         progressBar.setVisibility(View.GONE);
 =======
 >>>>>>> linh
+=======
+>>>>>>> origin/ngoc
 
         signIn=findViewById(R.id.login_btn);
         email=findViewById(R.id.email_login);
@@ -67,15 +82,20 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 loginUser();
                 progressBar.setVisibility(View.VISIBLE);
 =======
 
 >>>>>>> linh
+=======
+
+>>>>>>> origin/ngoc
             }
         });
 
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
     private void loginUser(){
         String userEmail = email.getText().toString();
@@ -114,4 +134,6 @@ public class LoginActivity extends AppCompatActivity {
     }
 =======
 >>>>>>> linh
+=======
+>>>>>>> origin/ngoc
 }

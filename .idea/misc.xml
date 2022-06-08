@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <entry key="..\:/AndroidStudioProjects/MyStore1/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/MyStore1/app/src/main/res/layout/activity_login.xml" value="0.11979166666666667" />
         <entry key="..\:/AndroidStudioProjects/MyStore1/app/src/main/res/layout/activity_main.xml" value="0.12590579710144928" />
@@ -22,6 +23,11 @@
         <entry key="..\:/AndroidStudioProjects/MyStore/app/src/main/res/layout/content_main.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/MyStore/app/src/main/res/menu/main.xml" value="0.21927083333333333" />
 >>>>>>> linh
+=======
+        <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore/MyStore/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore/MyStore/app/src/main/res/layout/activity_main.xml" value="0.17083333333333334" />
+        <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore/MyStore/app/src/main/res/layout/activity_registration.xml" value="0.14635416666666667" />
+>>>>>>> origin/ngoc
       </map>
     </option>
   </component>

@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+<<<<<<< HEAD
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
@@ -14,11 +15,18 @@ public class HomeActivity extends AppCompatActivity {
 
     ProgressBar progressBar;
     FirebaseAuth auth;
+=======
+
+public class HomeActivity extends AppCompatActivity {
+
+
+>>>>>>> origin/ngoc
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_home);
+<<<<<<< HEAD
         auth = FirebaseAuth.getInstance();
         progressBar = findViewById(R.id.progressbar);
         progressBar.setVisibility(View.GONE);
@@ -29,6 +37,8 @@ public class HomeActivity extends AppCompatActivity {
             Toast.makeText(this, "please wait you are already logged in", Toast.LENGTH_SHORT).show();
             finish();
         }
+=======
+>>>>>>> origin/ngoc
     }
 
     public void login(View view) {

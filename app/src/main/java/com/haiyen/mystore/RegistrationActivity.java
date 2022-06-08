@@ -1,6 +1,9 @@
 package com.haiyen.mystore;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/ngoc
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,7 +14,10 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+<<<<<<< HEAD
 import android.widget.ProgressBar;
+=======
+>>>>>>> origin/ngoc
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -20,6 +26,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+<<<<<<< HEAD
 import com.google.firebase.database.FirebaseDatabase;
 import com.haiyen.mystore.models.UserModel;
 =======
@@ -32,12 +39,15 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 >>>>>>> linh
+=======
+>>>>>>> origin/ngoc
 
 public class RegistrationActivity extends AppCompatActivity {
 
     Button signUp;
     EditText name, email, password;
     TextView signIn;
+<<<<<<< HEAD
 
 <<<<<<< HEAD
     FirebaseAuth auth;
@@ -46,6 +56,9 @@ public class RegistrationActivity extends AppCompatActivity {
     ProgressBar progressBar;
 =======
 >>>>>>> linh
+=======
+    FirebaseAuth auth;
+>>>>>>> origin/ngoc
 
 
     @Override
@@ -53,6 +66,7 @@ public class RegistrationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         auth = FirebaseAuth.getInstance();
         database = FirebaseDatabase.getInstance();
@@ -63,6 +77,9 @@ public class RegistrationActivity extends AppCompatActivity {
 
 =======
 >>>>>>> linh
+=======
+        auth = FirebaseAuth.getInstance();
+>>>>>>> origin/ngoc
         signUp=findViewById(R.id.reg_btn);
         name=findViewById(R.id.name);
         email=findViewById(R.id.email_reg);
@@ -81,15 +98,22 @@ public class RegistrationActivity extends AppCompatActivity {
             public void onClick(View view) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                 createUser();
                 progressBar.setVisibility(View.VISIBLE);
 =======
 >>>>>>> linh
+=======
+                createUser();
+>>>>>>> origin/ngoc
             }
         });
 
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/ngoc
 
     private void createUser() {
         String userName = name.getText().toString();
@@ -119,6 +143,7 @@ public class RegistrationActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()){
+<<<<<<< HEAD
 
                             UserModel userModel = new UserModel(userName, userEmail, userPassword);
                             String id = task.getResult().getUser().getUid();
@@ -129,11 +154,19 @@ public class RegistrationActivity extends AppCompatActivity {
                         }
                         else {
                             progressBar.setVisibility(View.GONE);
+=======
+                            Toast.makeText(RegistrationActivity.this, "Registration Successful", Toast.LENGTH_SHORT).show();
+                        }
+                        else {
+>>>>>>> origin/ngoc
                             Toast.makeText(RegistrationActivity.this, "Error: " + task.getException(), Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
     }
+<<<<<<< HEAD
 =======
 >>>>>>> linh
+=======
+>>>>>>> origin/ngoc
 }

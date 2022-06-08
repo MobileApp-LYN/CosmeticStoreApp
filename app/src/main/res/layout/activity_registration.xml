@@ -27,10 +27,14 @@
         android:elevation="3dp"
         android:padding="13dp"
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:hint="Name"
 =======
         android:text="Name"
 >>>>>>> linh
+=======
+        android:hint="Name"
+>>>>>>> origin/ngoc
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/reg_img"
@@ -48,10 +52,14 @@
         android:elevation="3dp"
         android:padding="13dp"
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:hint="Email"
 =======
         android:text="Email"
 >>>>>>> linh
+=======
+        android:hint="Email"
+>>>>>>> origin/ngoc
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/name"
@@ -69,11 +77,16 @@
         android:elevation="3dp"
         android:padding="13dp"
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:hint="Password"
         android:inputType="textPassword"
 =======
         android:text="Password"
 >>>>>>> linh
+=======
+        android:hint="Password"
+        android:inputType="textPassword"
+>>>>>>> origin/ngoc
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/name"
@@ -101,20 +114,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:layout_marginTop="33dp"
 =======
         android:layout_marginBottom="212dp"
 >>>>>>> linh
+=======
+        android:layout_marginBottom="212dp"
+>>>>>>> origin/ngoc
         android:text="Already Have An Account?"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
 <<<<<<< HEAD
+<<<<<<< HEAD
         app:layout_constraintTop_toBottomOf="@+id/reg_btn"
 =======
         app:layout_constraintTop_toBottomOf="@+id/login_btn"
 >>>>>>> linh
+=======
+        app:layout_constraintTop_toBottomOf="@+id/login_btn"
+>>>>>>> origin/ngoc
         app:layout_constraintVertical_bias=".2">
 
     </TextView>
@@ -133,6 +154,7 @@
         app:layout_constraintTop_toTopOf="@+id/textView" />
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     <ProgressBar
         android:id="@+id/progressbar"
@@ -148,4 +170,6 @@
 
 =======
 >>>>>>> linh
+=======
+>>>>>>> origin/ngoc
 </androidx.constraintlayout.widget.ConstraintLayout>
