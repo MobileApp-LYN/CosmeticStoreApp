@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< HEAD
         <entry key="..\:/AndroidStudioProjects/MyStore1/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/MyStore1/app/src/main/res/layout/activity_login.xml" value="0.11979166666666667" />
         <entry key="..\:/AndroidStudioProjects/MyStore1/app/src/main/res/layout/activity_main.xml" value="0.12590579710144928" />
@@ -12,6 +13,15 @@
         <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore/MyStore/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore/MyStore/app/src/main/res/layout/activity_main.xml" value="0.17083333333333334" />
         <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore/MyStore/app/src/main/res/layout/activity_registration.xml" value="0.14635416666666667" />
+=======
+        <entry key="..\:/AndroidStudioProjects/MyStore/app/src/main/res/drawable/Copy of account.xml" value="0.2555" />
+        <entry key="..\:/AndroidStudioProjects/MyStore/app/src/main/res/drawable/account.xml" value="0.1955" />
+        <entry key="..\:/AndroidStudioProjects/MyStore/app/src/main/res/drawable/edittext_ground.xml" value="0.252" />
+        <entry key="..\:/AndroidStudioProjects/MyStore/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/MyStore/app/src/main/res/layout/activity_registration.xml" value="0.24635416666666668" />
+        <entry key="..\:/AndroidStudioProjects/MyStore/app/src/main/res/layout/content_main.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/MyStore/app/src/main/res/menu/main.xml" value="0.21927083333333333" />
+>>>>>>> linh
       </map>
     </option>
   </component>

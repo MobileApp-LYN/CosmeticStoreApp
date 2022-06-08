@@ -1,5 +1,6 @@
 package com.haiyen.mystore;
 
+<<<<<<< HEAD
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -21,6 +22,16 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
 import com.haiyen.mystore.models.UserModel;
+=======
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+>>>>>>> linh
 
 public class RegistrationActivity extends AppCompatActivity {
 
@@ -28,10 +39,13 @@ public class RegistrationActivity extends AppCompatActivity {
     EditText name, email, password;
     TextView signIn;
 
+<<<<<<< HEAD
     FirebaseAuth auth;
     FirebaseDatabase database;
 
     ProgressBar progressBar;
+=======
+>>>>>>> linh
 
 
     @Override
@@ -39,6 +53,7 @@ public class RegistrationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration);
 
+<<<<<<< HEAD
         auth = FirebaseAuth.getInstance();
         database = FirebaseDatabase.getInstance();
 
@@ -46,6 +61,8 @@ public class RegistrationActivity extends AppCompatActivity {
         progressBar = findViewById(R.id.progressbar);
         progressBar.setVisibility(View.GONE);
 
+=======
+>>>>>>> linh
         signUp=findViewById(R.id.reg_btn);
         name=findViewById(R.id.name);
         email=findViewById(R.id.email_reg);
@@ -63,12 +80,16 @@ public class RegistrationActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+<<<<<<< HEAD
                 createUser();
                 progressBar.setVisibility(View.VISIBLE);
+=======
+>>>>>>> linh
             }
         });
 
     }
+<<<<<<< HEAD
 
     private void createUser() {
         String userName = name.getText().toString();
@@ -113,4 +134,6 @@ public class RegistrationActivity extends AppCompatActivity {
                     }
                 });
     }
+=======
+>>>>>>> linh
 }

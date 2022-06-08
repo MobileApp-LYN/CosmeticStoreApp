@@ -26,7 +26,11 @@
         android:drawablePadding="10dp"
         android:elevation="3dp"
         android:padding="13dp"
+<<<<<<< HEAD
         android:hint="Email"
+=======
+        android:text="Email"
+>>>>>>> linh
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/reg_img"
@@ -43,8 +47,12 @@
         android:drawablePadding="13dp"
         android:elevation="3dp"
         android:padding="13dp"
+<<<<<<< HEAD
         android:hint="Password"
         android:inputType="textPassword"
+=======
+        android:text="Passord"
+>>>>>>> linh
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/email_login"
@@ -95,6 +103,7 @@
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="@+id/textView" />
 
+<<<<<<< HEAD
     <ProgressBar
         android:id="@+id/progressbar"
         android:layout_width="wrap_content"
@@ -107,4 +116,6 @@
         android:scaleY=".5"
         android:scaleX=".5"/>
 
+=======
+>>>>>>> linh
 </androidx.constraintlayout.widget.ConstraintLayout>

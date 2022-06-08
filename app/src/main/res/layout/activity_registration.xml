@@ -26,7 +26,11 @@
         android:drawablePadding="10dp"
         android:elevation="3dp"
         android:padding="13dp"
+<<<<<<< HEAD
         android:hint="Name"
+=======
+        android:text="Name"
+>>>>>>> linh
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/reg_img"
@@ -43,7 +47,11 @@
         android:drawablePadding="13dp"
         android:elevation="3dp"
         android:padding="13dp"
+<<<<<<< HEAD
         android:hint="Email"
+=======
+        android:text="Email"
+>>>>>>> linh
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/name"
@@ -60,8 +68,12 @@
         android:drawablePadding="13dp"
         android:elevation="3dp"
         android:padding="13dp"
+<<<<<<< HEAD
         android:hint="Password"
         android:inputType="textPassword"
+=======
+        android:text="Password"
+>>>>>>> linh
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/name"
@@ -88,13 +100,21 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginTop="33dp"
+=======
+        android:layout_marginBottom="212dp"
+>>>>>>> linh
         android:text="Already Have An Account?"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+<<<<<<< HEAD
         app:layout_constraintTop_toBottomOf="@+id/reg_btn"
+=======
+        app:layout_constraintTop_toBottomOf="@+id/login_btn"
+>>>>>>> linh
         app:layout_constraintVertical_bias=".2">
 
     </TextView>
@@ -112,6 +132,7 @@
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="@+id/textView" />
 
+<<<<<<< HEAD
 
     <ProgressBar
         android:id="@+id/progressbar"
@@ -125,4 +146,6 @@
         android:scaleX=".5"
         android:scaleY=".5"/>
 
+=======
+>>>>>>> linh
 </androidx.constraintlayout.widget.ConstraintLayout>
