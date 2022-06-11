@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeActivity">
+    tools:context=".activities.HomeActivity"
+    android:background="@color/white">
 
     <TextView
         android:id="@+id/textView2"
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:fontFamily="@font/aclonica"
-        android:text="Welcome To Grocery Store App"
+        android:text="Welcome To Cosmetic Store App"
         android:textColor="@color/purple_700"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,20 +34,22 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:src="@mipmap/grocery"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@mipmap/grocery_new1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         app:layout_constraintVertical_bias="0" />
 
+
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:layout_marginTop="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView">
@@ -64,12 +66,11 @@
                 android:src="@drawable/key" />
 
             <TextView
-
+                android:fontFamily="@font/alice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="6dp"
-                android:fontFamily="@font/alice"
                 android:text="Login"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -89,18 +90,16 @@
                 android:src="@drawable/registration" />
 
             <TextView
-
+                android:fontFamily="@font/alice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="6dp"
-                android:fontFamily="@font/alice"
                 android:text="Registration"
                 android:textSize="22sp"
                 android:textStyle="bold" />
 
         </LinearLayout>
-
     </LinearLayout>
 
     <TextView
@@ -108,7 +107,7 @@
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/alice"
-        android:text="We Are Happy To Have You!Get Ready To Buy Fresh and Freeze, Grocery, and Anything You Want."
+        android:text="Bringing the mission of awakening beauty works with core values of faith and mind"
         android:textAlignment="center"
         android:textColor="#076308"
         android:textSize="17sp"
@@ -118,5 +117,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
         app:layout_constraintVertical_bias=".3" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX=".5"
+        android:scaleY=".5"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

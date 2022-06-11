@@ -1,30 +1,37 @@
-package com.haiyen.mystore;
+package com.haiyen.mystore.activities;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.tasks.OnCanceledListener;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.FirebaseDatabase;
+import com.haiyen.mystore.LoginActivity;
+import com.haiyen.mystore.R;
+import com.haiyen.mystore.models.UserModel;
 
 public class RegistrationActivity extends AppCompatActivity {
 
     Button signUp;
     EditText name, email, password;
     TextView signIn;
+
     FirebaseAuth auth;
+    FirebaseDatabase database;
+
+    ProgressBar progressBar;
 
 
     @Override
@@ -33,6 +40,12 @@ public class RegistrationActivity extends AppCompatActivity {
         setContentView(R.layout.activity_registration);
 
         auth = FirebaseAuth.getInstance();
+        database = FirebaseDatabase.getInstance();
+
+
+        progressBar = findViewById(R.id.progressbar);
+        progressBar.setVisibility(View.GONE);
+
         signUp=findViewById(R.id.reg_btn);
         name=findViewById(R.id.name);
         email=findViewById(R.id.email_reg);
@@ -51,6 +64,7 @@ public class RegistrationActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 createUser();
+                progressBar.setVisibility(View.VISIBLE);
             }
         });
 
@@ -84,9 +98,16 @@ public class RegistrationActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()){
+
+                            UserModel userModel = new UserModel(userName, userEmail, userPassword);
+                            String id = task.getResult().getUser().getUid();
+                            database.getReference().child("Users").child(id).setValue(userModel);
+                            progressBar.setVisibility(View.GONE);
+
                             Toast.makeText(RegistrationActivity.this, "Registration Successful", Toast.LENGTH_SHORT).show();
                         }
                         else {
+                            progressBar.setVisibility(View.GONE);
                             Toast.makeText(RegistrationActivity.this, "Error: " + task.getException(), Toast.LENGTH_SHORT).show();
                         }
                     }

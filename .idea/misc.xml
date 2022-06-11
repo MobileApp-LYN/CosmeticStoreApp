@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore/MyStore/app/src/main/res/layout/activity_home.xml" value="0.1" />
-        <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore/MyStore/app/src/main/res/layout/activity_main.xml" value="0.17083333333333334" />
-        <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore/MyStore/app/src/main/res/layout/activity_registration.xml" value="0.14635416666666667" />
+        <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore3/MyStore1/app/src/main/res/layout/fragment_home.xml" value="0.16" />
+        <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore3/MyStore1/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore3/MyStore1/app/src/main/res/layout/home_cat_items.xml" value="0.16757246376811594" />
+        <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore3/MyStore1/app/src/main/res/layout/popular_item.xml" value="0.264" />
+        <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore3/MyStore1/app/src/main/res/layout/recommended_item.xml" value="0.22864583333333333" />
       </map>
     </option>
   </component>
