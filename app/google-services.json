@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "973894482308",
+    "project_id": "my-store-a95e8",
+    "storage_bucket": "my-store-a95e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973894482308:android:c411bb9e0826a257fb45d1",
+        "android_client_info": {
+          "package_name": "com.haiyen.mystore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973894482308-fnp9v0k4htj4up4rs88vchb2e3mu6ioe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjEpxcsw8TnjqXqRQGuHyewW3CARa5B-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973894482308-fnp9v0k4htj4up4rs88vchb2e3mu6ioe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
