@@ -109,7 +109,7 @@
         android:fontFamily="@font/alice"
         android:text="Bringing the mission of awakening beauty works with core values of faith and mind"
         android:textAlignment="center"
-        android:textColor="#076308"
+        android:textColor="@color/teal_700"
         android:textSize="17sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

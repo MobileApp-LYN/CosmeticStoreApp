@@ -1,6 +1,8 @@
 package com.haiyen.mystore.adapters;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.Intent;
 import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,6 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.haiyen.mystore.R;
+import com.haiyen.mystore.activities.ViewAllActivity;
 import com.haiyen.mystore.models.HomeCategory;
 
 import java.util.List;
@@ -34,10 +37,19 @@ public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull ViewHolder holder, @SuppressLint("RecyclerView") int position) {
 
         Glide.with(context).load(categoryList.get(position).getImg_url()).into((ImageView) holder.catImg);
         holder.name.setText(categoryList.get(position).getName());
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context, ViewAllActivity.class);
+                intent.putExtra("type",categoryList.get(position).getType());
+                context.startActivity(intent);
+            }
+        });
 
     }
 

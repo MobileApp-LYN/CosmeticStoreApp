@@ -18,14 +18,16 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
             android:src="@drawable/milk2" />
         
         <TextView
             android:id="@+id/cat_home_name"
-            android:layout_width="65dp"
+            android:layout_width="70dp"
             android:layout_height="60dp"
             android:text="Category Name"
             android:textStyle="bold"
+            android:layout_marginTop="8dp"
             android:textColor="@color/white"
             android:textAlignment="center"
             android:fontFamily="@font/alice"/>
