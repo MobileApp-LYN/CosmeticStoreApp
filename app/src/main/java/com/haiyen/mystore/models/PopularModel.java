@@ -7,6 +7,7 @@ public class PopularModel {
     String discount;
     String type;
     String img_url;
+    String img_url3;
 
     public PopularModel() {
     }

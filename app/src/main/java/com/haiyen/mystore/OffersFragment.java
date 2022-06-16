@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment;
 
 public class OffersFragment extends Fragment {
 
+    String linh;
 
     public OffersFragment() {
         // Required empty public constructor

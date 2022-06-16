@@ -5,6 +5,7 @@ public class NavCategoryModel {
     String description;
     String discount;
     String img_url;
+    String img_urlb;
 
     public NavCategoryModel() {
 

@@ -6,6 +6,7 @@ public class RecommendedModel {
     String rating;
     String img_url;
     int price;
+    int price4;
 
     public RecommendedModel() {
     }

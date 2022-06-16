@@ -5,6 +5,7 @@ public class HomeCategory {
     String name;
     String img_url;
     String type;
+    String type3;
 
     public HomeCategory() {
     }

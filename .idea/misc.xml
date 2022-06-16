@@ -4,13 +4,20 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidStudioProjects/MyStore1.2/app/src/main/res/layout/activity_login.xml" value="0.20425724637681159" />
+        <entry key="..\:/AndroidStudioProjects/MyStore1.2/app/src/main/res/layout/activity_main.xml" value="0.20425724637681159" />
+        <entry key="..\:/AndroidStudioProjects/MyStore1.2/app/src/main/res/layout/activity_registration.xml" value="0.20425724637681159" />
         <entry key="..\:/AndroidStudioProjects/MyStore1.2/app/src/main/res/layout/content_main.xml" value="0.20425724637681159" />
+        <entry key="..\:/AndroidStudioProjects/MyStore1.2/app/src/main/res/layout/fragment_category.xml" value="0.20425724637681159" />
         <entry key="..\:/AndroidStudioProjects/MyStore1.2/app/src/main/res/layout/fragment_home.xml" value="0.20425724637681159" />
         <entry key="..\:/AndroidStudioProjects/MyStore1.2/app/src/main/res/layout/fragment_my_orders.xml" value="0.20425724637681159" />
         <entry key="..\:/AndroidStudioProjects/MyStore1.2/app/src/main/res/layout/fragment_new_products.xml" value="0.20425724637681159" />
         <entry key="..\:/AndroidStudioProjects/MyStore1.2/app/src/main/res/layout/fragment_offersk.xml" value="0.20425724637681159" />
         <entry key="..\:/AndroidStudioProjects/MyStore1.2/app/src/main/res/layout/fragment_profile.xml" value="0.20425724637681159" />
+        <entry key="..\:/AndroidStudioProjects/MyStore1.2/app/src/main/res/layout/home_cat_items.xml" value="0.20425724637681159" />
+        <entry key="..\:/AndroidStudioProjects/MyStore1.2/app/src/main/res/layout/my_cart_item.xml" value="0.20425724637681159" />
         <entry key="..\:/AndroidStudioProjects/MyStore1.2/app/src/main/res/layout/nav_cat_item.xml" value="0.20425724637681159" />
+        <entry key="..\:/AndroidStudioProjects/MyStore1.2/app/src/main/res/layout/nav_header_main.xml" value="0.20425724637681159" />
+        <entry key="..\:/AndroidStudioProjects/MyStore1.2/app/src/main/res/layout/viea_all_item.xml" value="0.20425724637681159" />
         <entry key="..\:/AndroidStudioProjects/MyStore2/app/src/main/res/drawable/btn_bg_detailed.xml" value="0.1925" />
         <entry key="..\:/AndroidStudioProjects/MyStore2/app/src/main/res/layout/activity_detailed.xml" value="0.2" />
         <entry key="..\:/AndroidStudioProjects/MyStore2/app/src/main/res/layout/activity_home.xml" value="0.1716485507246377" />
