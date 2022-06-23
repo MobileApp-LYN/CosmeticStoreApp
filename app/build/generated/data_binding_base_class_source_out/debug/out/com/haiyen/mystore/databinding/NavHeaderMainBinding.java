@@ -4,7 +4,6 @@ package com.haiyen.mystore.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -12,6 +11,7 @@ import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.haiyen.mystore.R;
+import de.hdodenhof.circleimageview.CircleImageView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -21,16 +21,20 @@ public final class NavHeaderMainBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final ImageView imageView;
+  public final TextView navHeaderEmail;
 
   @NonNull
-  public final TextView textView;
+  public final CircleImageView navHeaderImg;
 
-  private NavHeaderMainBinding(@NonNull LinearLayout rootView, @NonNull ImageView imageView,
-      @NonNull TextView textView) {
+  @NonNull
+  public final TextView navHeaderName;
+
+  private NavHeaderMainBinding(@NonNull LinearLayout rootView, @NonNull TextView navHeaderEmail,
+      @NonNull CircleImageView navHeaderImg, @NonNull TextView navHeaderName) {
     this.rootView = rootView;
-    this.imageView = imageView;
-    this.textView = textView;
+    this.navHeaderEmail = navHeaderEmail;
+    this.navHeaderImg = navHeaderImg;
+    this.navHeaderName = navHeaderName;
   }
 
   @Override
@@ -60,19 +64,26 @@ public final class NavHeaderMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.imageView;
-      ImageView imageView = ViewBindings.findChildViewById(rootView, id);
-      if (imageView == null) {
+      id = R.id.nav_header_email;
+      TextView navHeaderEmail = ViewBindings.findChildViewById(rootView, id);
+      if (navHeaderEmail == null) {
         break missingId;
       }
 
-      id = R.id.textView;
-      TextView textView = ViewBindings.findChildViewById(rootView, id);
-      if (textView == null) {
+      id = R.id.nav_header_img;
+      CircleImageView navHeaderImg = ViewBindings.findChildViewById(rootView, id);
+      if (navHeaderImg == null) {
         break missingId;
       }
 
-      return new NavHeaderMainBinding((LinearLayout) rootView, imageView, textView);
+      id = R.id.nav_header_name;
+      TextView navHeaderName = ViewBindings.findChildViewById(rootView, id);
+      if (navHeaderName == null) {
+        break missingId;
+      }
+
+      return new NavHeaderMainBinding((LinearLayout) rootView, navHeaderEmail, navHeaderImg,
+          navHeaderName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

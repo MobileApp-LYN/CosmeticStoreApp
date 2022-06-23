@@ -9,13 +9,13 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54c30d15-b979-479e-8fc9-90851277aa23" name="Default Changelist" comment="" />
+    <list default="true" id="5fe8e498-4977-4845-9bbc-c684015e5289" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\DELL\.android\avd\Pixel_5_API_30_2.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\DELL\.android\avd\Pixel_2_API_29.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -24,11 +24,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="29gNdlxfsaT0bh48XhfsamJOMvH" />
+  <component name="ProjectId" id="2AQ9JnusdtVvMGDkysmbq2WvHXf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,10 +39,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../MyStore2" />
   </component>
   <component name="RecentsManager">
-    <key name="android.template.-1476101168">
-      <recent name="com.haiyen.mystore" />
+    <key name="android.template.-572489221">
+      <recent name="com.haiyen.mystore.activities" />
+    </key>
+    <key name="android.template.687285991">
+      <recent name="com.haiyen.mystore.activities" />
     </key>
   </component>
   <component name="RunManager">
@@ -59,8 +64,6 @@
       <option name="MODE" value="default_activity" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
       <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
@@ -108,11 +111,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="54c30d15-b979-479e-8fc9-90851277aa23" name="Default Changelist" comment="" />
-      <created>1653530859226</created>
+      <changelist id="5fe8e498-4977-4845-9bbc-c684015e5289" name="Changes" comment="" />
+      <created>1654930872586</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1653530859226</updated>
+      <updated>1654930872586</updated>
     </task>
     <servers />
   </component>

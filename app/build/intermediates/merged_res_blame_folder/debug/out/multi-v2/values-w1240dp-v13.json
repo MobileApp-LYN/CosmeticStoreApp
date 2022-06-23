@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\AndroidStudioProjects\\MyStore\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w1240dp-v13\\values-w1240dp-v13.xml",
+            "outputFile": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w1240dp-v13\\values-w1240dp-v13.xml",
             "map": [
                 {
-                    "source": "D:\\AndroidStudioProjects\\MyStore\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
+                    "source": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",

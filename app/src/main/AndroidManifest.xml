@@ -9,21 +9,32 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyStore">
-        <activity android:name=".RegistrationActivity">
-
-        </activity>
-
-
         <activity
-            android:name=".LoginActivity" />
+            android:name=".activities.PlacedOrderActivity"
+            android:exported="false" />
         <activity
-            android:name=".HomeActivity"
+            android:name=".activities.NavCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.DetailedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ViewAllActivity"
+            android:exported="false" />
+        <activity android:name=".activities.RegistrationActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".activities.HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
 
         </activity>
 

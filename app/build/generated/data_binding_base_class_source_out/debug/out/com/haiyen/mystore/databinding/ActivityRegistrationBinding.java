@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -23,16 +24,19 @@ public final class ActivityRegistrationBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final EditText email;
-
-  @NonNull
-  public final Button loginBtn;
+  public final EditText emailReg;
 
   @NonNull
   public final EditText name;
 
   @NonNull
-  public final EditText password;
+  public final EditText passwordReg;
+
+  @NonNull
+  public final ProgressBar progressbar;
+
+  @NonNull
+  public final Button regBtn;
 
   @NonNull
   public final ImageView regImg;
@@ -43,14 +47,16 @@ public final class ActivityRegistrationBinding implements ViewBinding {
   @NonNull
   public final TextView textView;
 
-  private ActivityRegistrationBinding(@NonNull ConstraintLayout rootView, @NonNull EditText email,
-      @NonNull Button loginBtn, @NonNull EditText name, @NonNull EditText password,
-      @NonNull ImageView regImg, @NonNull TextView signIn, @NonNull TextView textView) {
+  private ActivityRegistrationBinding(@NonNull ConstraintLayout rootView,
+      @NonNull EditText emailReg, @NonNull EditText name, @NonNull EditText passwordReg,
+      @NonNull ProgressBar progressbar, @NonNull Button regBtn, @NonNull ImageView regImg,
+      @NonNull TextView signIn, @NonNull TextView textView) {
     this.rootView = rootView;
-    this.email = email;
-    this.loginBtn = loginBtn;
+    this.emailReg = emailReg;
     this.name = name;
-    this.password = password;
+    this.passwordReg = passwordReg;
+    this.progressbar = progressbar;
+    this.regBtn = regBtn;
     this.regImg = regImg;
     this.signIn = signIn;
     this.textView = textView;
@@ -83,15 +89,9 @@ public final class ActivityRegistrationBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.email;
-      EditText email = ViewBindings.findChildViewById(rootView, id);
-      if (email == null) {
-        break missingId;
-      }
-
-      id = R.id.login_btn;
-      Button loginBtn = ViewBindings.findChildViewById(rootView, id);
-      if (loginBtn == null) {
+      id = R.id.email_reg;
+      EditText emailReg = ViewBindings.findChildViewById(rootView, id);
+      if (emailReg == null) {
         break missingId;
       }
 
@@ -101,9 +101,21 @@ public final class ActivityRegistrationBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.password;
-      EditText password = ViewBindings.findChildViewById(rootView, id);
-      if (password == null) {
+      id = R.id.password_reg;
+      EditText passwordReg = ViewBindings.findChildViewById(rootView, id);
+      if (passwordReg == null) {
+        break missingId;
+      }
+
+      id = R.id.progressbar;
+      ProgressBar progressbar = ViewBindings.findChildViewById(rootView, id);
+      if (progressbar == null) {
+        break missingId;
+      }
+
+      id = R.id.reg_btn;
+      Button regBtn = ViewBindings.findChildViewById(rootView, id);
+      if (regBtn == null) {
         break missingId;
       }
 
@@ -125,8 +137,8 @@ public final class ActivityRegistrationBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityRegistrationBinding((ConstraintLayout) rootView, email, loginBtn, name,
-          password, regImg, signIn, textView);
+      return new ActivityRegistrationBinding((ConstraintLayout) rootView, emailReg, name,
+          passwordReg, progressbar, regBtn, regImg, signIn, textView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

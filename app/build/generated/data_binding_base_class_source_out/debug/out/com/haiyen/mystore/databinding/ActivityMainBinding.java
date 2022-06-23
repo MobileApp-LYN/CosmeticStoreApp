@@ -20,18 +20,14 @@ public final class ActivityMainBinding implements ViewBinding {
   private final DrawerLayout rootView;
 
   @NonNull
-  public final AppBarMainBinding appBarMain;
-
-  @NonNull
   public final DrawerLayout drawerLayout;
 
   @NonNull
   public final NavigationView navView;
 
-  private ActivityMainBinding(@NonNull DrawerLayout rootView, @NonNull AppBarMainBinding appBarMain,
-      @NonNull DrawerLayout drawerLayout, @NonNull NavigationView navView) {
+  private ActivityMainBinding(@NonNull DrawerLayout rootView, @NonNull DrawerLayout drawerLayout,
+      @NonNull NavigationView navView) {
     this.rootView = rootView;
-    this.appBarMain = appBarMain;
     this.drawerLayout = drawerLayout;
     this.navView = navView;
   }
@@ -63,13 +59,6 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.app_bar_main;
-      View appBarMain = ViewBindings.findChildViewById(rootView, id);
-      if (appBarMain == null) {
-        break missingId;
-      }
-      AppBarMainBinding binding_appBarMain = AppBarMainBinding.bind(appBarMain);
-
       DrawerLayout drawerLayout = (DrawerLayout) rootView;
 
       id = R.id.nav_view;
@@ -78,8 +67,7 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((DrawerLayout) rootView, binding_appBarMain, drawerLayout,
-          navView);
+      return new ActivityMainBinding((DrawerLayout) rootView, drawerLayout, navView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

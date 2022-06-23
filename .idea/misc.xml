@@ -3,15 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/AndroidStudioProjects/MyStore1/app/src/main/res/layout/activity_home.xml" value="0.1" />
-        <entry key="..\:/AndroidStudioProjects/MyStore1/app/src/main/res/layout/activity_login.xml" value="0.11979166666666667" />
-        <entry key="..\:/AndroidStudioProjects/MyStore1/app/src/main/res/layout/activity_main.xml" value="0.12590579710144928" />
-        <entry key="..\:/AndroidStudioProjects/MyStore1/app/src/main/res/layout/activity_registration.xml" value="0.1828125" />
-        <entry key="..\:/AndroidStudioProjects/MyStore1/app/src/main/res/layout/content_main.xml" value="0.12590579710144928" />
-        <entry key="..\:/AndroidStudioProjects/MyStore1/app/src/main/res/layout/nav_header_main.xml" value="0.12590579710144928" />
-        <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore/MyStore/app/src/main/res/layout/activity_home.xml" value="0.1" />
-        <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore/MyStore/app/src/main/res/layout/activity_main.xml" value="0.17083333333333334" />
-        <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore/MyStore/app/src/main/res/layout/activity_registration.xml" value="0.14635416666666667" />
+        <entry key="..\:/AndroidStudioProjects/MyStore38/MyStore2/app/src/main/res/drawable/side_nav_bar.xml" value="0.1265" />
+        <entry key="..\:/AndroidStudioProjects/MyStore38/MyStore2/app/src/main/res/layout/fragment_home.xml" value="0.16799999999999998" />
+        <entry key="..\:/AndroidStudioProjects/MyStore38/MyStore2/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/MyStore38/MyStore2/app/src/main/res/layout/nav_header_main.xml" value="0.16927083333333334" />
+        <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore2/MyStore2/app/src/main/res/drawable/add_circle.xml" value="0.1" />
+        <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore2/MyStore2/app/src/main/res/drawable/border.xml" value="0.1" />
+        <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore2/MyStore2/app/src/main/res/layout/activity_detailed.xml" value="0.18947368421052632" />
+        <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore2/MyStore2/app/src/main/res/layout/activity_nav_category.xml" value="0.11659192825112108" />
+        <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore2/MyStore2/app/src/main/res/layout/activity_placed_order.xml" value="0.1" />
+        <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore2/MyStore2/app/src/main/res/layout/activity_view_all.xml" value="0.190625" />
+        <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore2/MyStore2/app/src/main/res/layout/fragment_category.xml" value="0.190625" />
+        <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore2/MyStore2/app/src/main/res/layout/fragment_my_carts.xml" value="0.190625" />
+        <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore2/MyStore2/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore2/MyStore2/app/src/main/res/layout/my_cart_item.xml" value="0.1" />
+        <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore2/MyStore2/app/src/main/res/layout/nav_cat_item.xml" value="0.1262135922330097" />
+        <entry key="..\:/Nam 3/KI 2/Lap Trinh Di Dong/MyStore2/MyStore2/app/src/main/res/layout/nav_category_detailed_item.xml" value="0.13670886075949368" />
       </map>
     </option>
   </component>

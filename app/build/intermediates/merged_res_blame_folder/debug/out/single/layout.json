@@ -1,38 +1,102 @@
 [
     {
-        "merged": "D:\\AndroidStudioProjects\\MyStore\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
-        "source": "D:\\AndroidStudioProjects\\MyStore\\app\\src\\main\\res\\layout\\fragment_home.xml"
+        "merged": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_detailed.xml",
+        "source": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\src\\main\\res\\layout\\activity_detailed.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\MyStore\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_gallery.xml",
-        "source": "D:\\AndroidStudioProjects\\MyStore\\app\\src\\main\\res\\layout\\fragment_gallery.xml"
+        "merged": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\popular_item.xml",
+        "source": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\src\\main\\res\\layout\\popular_item.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\MyStore\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
-        "source": "D:\\AndroidStudioProjects\\MyStore\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_category.xml",
+        "source": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\src\\main\\res\\layout\\fragment_category.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\MyStore\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_registration.xml",
-        "source": "D:\\AndroidStudioProjects\\MyStore\\app\\src\\main\\res\\layout\\activity_registration.xml"
+        "merged": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\my_cart_item.xml",
+        "source": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\src\\main\\res\\layout\\my_cart_item.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\MyStore\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_main.xml",
-        "source": "D:\\AndroidStudioProjects\\MyStore\\app\\src\\main\\res\\layout\\content_main.xml"
+        "merged": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_placed_order.xml",
+        "source": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\src\\main\\res\\layout\\activity_placed_order.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\MyStore\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "D:\\AndroidStudioProjects\\MyStore\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\MyStore\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_header_main.xml",
-        "source": "D:\\AndroidStudioProjects\\MyStore\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+        "merged": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_offersk.xml",
+        "source": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\src\\main\\res\\layout\\fragment_offersk.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\MyStore\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\app_bar_main.xml",
-        "source": "D:\\AndroidStudioProjects\\MyStore\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+        "merged": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_nav_category.xml",
+        "source": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\src\\main\\res\\layout\\activity_nav_category.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProjects\\MyStore\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_slideshow.xml",
-        "source": "D:\\AndroidStudioProjects\\MyStore\\app\\src\\main\\res\\layout\\fragment_slideshow.xml"
+        "merged": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_category_detailed_item.xml",
+        "source": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\src\\main\\res\\layout\\nav_category_detailed_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_home.xml",
+        "source": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_main.xml",
+        "source": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_new_products.xml",
+        "source": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\src\\main\\res\\layout\\fragment_new_products.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_profile.xml",
+        "source": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\app_bar_main.xml",
+        "source": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\viea_all_item.xml",
+        "source": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\src\\main\\res\\layout\\viea_all_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\recommended_item.xml",
+        "source": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\src\\main\\res\\layout\\recommended_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_header_main.xml",
+        "source": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_my_carts.xml",
+        "source": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\src\\main\\res\\layout\\fragment_my_carts.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_cat_item.xml",
+        "source": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\src\\main\\res\\layout\\nav_cat_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_registration.xml",
+        "source": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\src\\main\\res\\layout\\activity_registration.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_view_all.xml",
+        "source": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\src\\main\\res\\layout\\activity_view_all.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\home_cat_items.xml",
+        "source": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\src\\main\\res\\layout\\home_cat_items.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_my_orders.xml",
+        "source": "D:\\AndroidStudioProjects\\MyStore38\\MyStore2\\app\\src\\main\\res\\layout\\fragment_my_orders.xml"
     }
 ]
