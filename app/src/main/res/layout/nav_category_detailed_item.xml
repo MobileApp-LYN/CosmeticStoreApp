@@ -8,17 +8,16 @@
     app:cardElevation="4dp">
 
     <LinearLayout
-        android:background="#E6E6FA"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal">
+
         <ImageView
-            android:background="@drawable/border"
             android:id="@+id/cat_nav_img"
             android:scaleType="centerInside"
             android:src="@drawable/fruits"
-            android:layout_width="150dp"
-            android:layout_height="150dp"></ImageView>
+            android:layout_width="120dp"
+            android:layout_height="125dp"></ImageView>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -35,51 +34,62 @@
                 android:maxLines="1"
                 android:singleLine="true"
                 android:textStyle="bold"
-                android:textSize="24sp"
-                android:textColor="@color/black"></TextView>
-
-            <TextView
-                android:fontFamily="@font/alice"
-                android:id="@+id/nav_cat_description"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Description"
-                android:ellipsize="end"
-                android:maxLines="2"
-                android:singleLine="false"
-
+                android:textSize="21sp"
                 android:textColor="@color/black"></TextView>
 
 
             <TextView
-                android:fontFamily="@font/alice"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Discount : "
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"></TextView>
-
-
-            <TextView
-                android:id="@+id/nav_cat_discount"
+                android:id="@+id/price"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/alice"
-                android:text="20% OFF"
+                android:text="product price"
                 android:textColor="@color/purple_700"
-                android:textSize="22sp"
+                android:textSize="19sp"
                 android:textStyle="bold"></TextView>
 
-            <ImageView
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/add_item"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/add_circle"
+                    android:layout_marginLeft="6dp"/>
+
+                <TextView
+                    android:id="@+id/quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:layout_margin="4dp"
+                    android:fontFamily="@font/alice"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/remove_item"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/remove_circle"/>
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buynow"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:layout_margin="5dp"
+                android:text="Buy Now"
+                android:textSize="10sp"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:layout_gravity="end"
-                android:layout_marginTop="15dp"
-                android:layout_marginRight="5dp">
-
-            </ImageView>
+                android:background="@drawable/btn_bg_detailed"/>
         </LinearLayout>
 
 

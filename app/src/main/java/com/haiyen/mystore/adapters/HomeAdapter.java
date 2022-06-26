@@ -22,7 +22,6 @@ import java.util.List;
 
 public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
 
-    int dn;
     Context context;
     List<HomeCategory> categoryList;
 

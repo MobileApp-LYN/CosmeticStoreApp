@@ -1,22 +1,14 @@
 package com.haiyen.mystore.models;
 
-public class RecommendedModel {
+import java.io.Serializable;
+
+public class ViewAllModel implements Serializable {
     String name;
     String description;
+    String type;
     String rating;
-    String img_url;
     int price;
-
-    public RecommendedModel() {
-    }
-
-    public RecommendedModel(String name, String description, String rating, String img_url, int price) {
-        this.name = name;
-        this.description = description;
-        this.rating = rating;
-        this.img_url = img_url;
-        this.price = price;
-    }
+    String img_url;
 
     public String getName() {
         return name;
@@ -34,12 +26,28 @@ public class RecommendedModel {
         this.description = description;
     }
 
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
     public String getRating() {
         return rating;
     }
 
     public void setRating(String rating) {
         this.rating = rating;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
     }
 
     public String getImg_url() {
@@ -50,11 +58,15 @@ public class RecommendedModel {
         this.img_url = img_url;
     }
 
-    public int getPrice() {
-        return price;
+    public ViewAllModel(String name, String description, String type, String rating, int price, String img_url) {
+        this.name = name;
+        this.description = description;
+        this.type = type;
+        this.rating = rating;
+        this.price = price;
+        this.img_url = img_url;
     }
 
-    public void setPrice(int price) {
-        this.price = price;
+    public ViewAllModel() {
     }
 }

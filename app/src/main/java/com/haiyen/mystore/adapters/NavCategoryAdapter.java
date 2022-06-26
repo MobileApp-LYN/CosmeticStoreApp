@@ -1,6 +1,8 @@
 package com.haiyen.mystore.adapters;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.Intent;
 import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,6 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.haiyen.mystore.R;
+import com.haiyen.mystore.activities.NavCategoryActivity;
 import com.haiyen.mystore.models.HomeCategory;
 import com.haiyen.mystore.models.NavCategoryModel;
 
@@ -36,10 +39,19 @@ public class NavCategoryAdapter extends RecyclerView.Adapter<NavCategoryAdapter.
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
 
-        Glide.with(context).load(list.get(position).getImg_url()).into((ImageView) holder.imageView);
+        Glide.with(context).load(list.get(position).getImg_url()).into(holder.imageView);
         holder.name.setText(list.get(position).getName());
         holder.description.setText(list.get(position).getDescription());
         holder.discount.setText(list.get(position).getDiscount());
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, NavCategoryActivity.class);
+                intent.putExtra("type", list.get(position).getType());
+                context.startActivity(intent);
+            }
+        });
 
     }
 
@@ -49,10 +61,8 @@ public class NavCategoryAdapter extends RecyclerView.Adapter<NavCategoryAdapter.
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-
         ImageView imageView;
         TextView name,description,discount;
-
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             imageView = itemView.findViewById(R.id.cat_nav_img);

@@ -7,19 +7,18 @@ import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
 
-public class OffersFragment extends Fragment {
+public class MyOrdersFragment extends Fragment {
 
 
-    public OffersFragment() {
+    public MyOrdersFragment() {
         // Required empty public constructor
     }
-
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_offersk, container, false);
+        return inflater.inflate(R.layout.fragment_my_orders, container, false);
     }
 }
